@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BaggageCalc</string>
+    <string name="app_subtitle">Calculate your excess baggage fees easily.</string>
+
+    <!-- Inputs -->
+    <string name="label_baggage_weight">Baggage Weight (kg)</string>
+    <string name="hint_baggage_weight">Enter total baggage weight (e.g. 25.5)</string>
+    <string name="label_ticket_class">Ticket Class</string>
+    <string name="class_economy">Economy Class (20 kg allowance)</string>
+    <string name="class_business">Business Class (40 kg allowance)</string>
+    <string name="label_excess_rate">Excess Baggage Rate (RM / kg)</string>
+    <string name="hint_excess_rate">Enter rate per excess kg (e.g. 15.00)</string>
+    <string name="allowance_notice">Service Tax: 8%</string>
+
+    <!-- Actions -->
+    <string name="btn_calculate">CALCULATE</string>
+    <string name="btn_reset">RESET</string>
+
+    <!-- Results -->
+    <string name="section_results">Calculation Results</string>
+    <string name="label_allowance">Free Baggage Allowance</string>
+    <string name="label_excess_weight">Excess Baggage Weight</string>
+    <string name="label_excess_charge">Subtotal Excess Charge</string>
+    <string name="label_service_tax">Service Tax (8%)</string>
+    <string name="label_total_payable">Total Amount Payable</string>
+    <string name="default_weight">0.00 kg</string>
+    <string name="default_amount">RM 0.00</string>
+    <string name="tagline">BaggageCalc | Your Smart Travel Companion</string>
+
+    <!-- About -->
+    <string name="title_about">About BaggageCalc</string>
+    <string name="about_app_desc">BaggageCalc is a lightweight mobile application designed for air travellers to quickly compute excess baggage charges based on ticket class allowance, weight, and excess rates, inclusive of 8% service tax.</string>
+    <string name="developer_info">Developer: MUHAMMAD HARIS SYAHMI BIN MOHD RAFIZAL\nGroup: RCDCS2405B\nStudent ID: 2024231026\nProgramme: CDCS240</string>
+    <string name="visit_github">Visit BaggageCalc on GitHub</string>
+    <string name="copyright">Copyright © 2026 BaggageCalc. All Rights Reserved.</string>
+
+    <!-- Validation messages -->
+    <string name="err_empty_weight">Please enter baggage weight</string>
+    <string name="err_empty_rate">Please enter excess baggage rate</string>
+    <string name="err_incomplete_info">Please fill in all required information</string>
+    <string name="err_invalid_number">Please enter valid numeric values</string>
+    <string name="err_negative_weight">Weight cannot be negative</string>
+    <string name="err_negative_rate">Rate cannot be negative</string>
+    <string name="msg_calc_success">Calculation completed successfully!</string>
+    <string name="msg_reset_success">Calculator reset successfully</string>
+    <string name="developer_information">Developer Information</string>
+    <string name="application_website">Application Website</string>
+
+    <!-- Menu & Dialog -->
+    <string name="action_share">Share</string>
+    <string name="menu_about">About</string>
+    <string name="menu_theme_dark">Dark Mode</string>
+    <string name="menu_theme_light">Light Mode</string>
+    <string name="menu_quit">Quit</string>
+    <string name="dialog_quit_title">Quit</string>
+    <string name="dialog_quit_message">Are you sure you want to quit the application?</string>
+    <string name="dialog_btn_cancel">CANCEL</string>
+    <string name="dialog_btn_quit">QUIT</string>
+</resources>
