@@ -1,5 +1,5 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Tema untuk Dark Mode (Tanpa TitleBar Bawaan) -->
+    <!-- for dark mode theme -->
     <style name="Base.Theme.BaggegeCalc" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorPrimary">@color/purple_700</item>
         <item name="colorPrimaryVariant">@color/purple_500</item>
